@@ -59,7 +59,7 @@ Fusion can produce higher RMSE when:
 # kalman fusion
 <img src="media/white_kalman.png" alt="Fused distance" width="400">
 <img src="media/kalman_black.png" alt="Fused distance" width="400">
-<img src="media/kalman_white.png" alt="Fused distance" width="400">
+<img src="media/kalman_metal.png" alt="Fused distance" width="400">
 
 # rmse comparison
   <img src="media/rmse(kalman)_comp.png" alt="Fused distance" width="400">
