@@ -47,24 +47,23 @@ Fusion can produce higher RMSE when:
 ---
 
 ## Figures
-Place exported plots here:
-#raw sensor fusion
+# raw sensor fusion
 <img src="media/ir_dist.png" alt="Fused distance" width="400">
 <img src="media/idar_dist.png" alt="Fused distance" width="400">
 <img src="media/sonar_dist.png" alt="Fused distance" width="400">
 
-##weighted fusion comparison
+# weighted fusion comparison
 <img src="media/metal_fused.png" alt="Fused distance" width="400">
 <img src="media/fused_black.png" alt="Fused distance" width="400">
 
-##kalman fusion
+# kalman fusion
 <img src="media/white_kalman.png" alt="Fused distance" width="400">
 <img src="media/kalman_black.png" alt="Fused distance" width="400">
 <img src="media/kalman_white.png" alt="Fused distance" width="400">
 
-#rmse comparison
+# rmse comparison
   <img src="media/rmse(kalman)_comp.png" alt="Fused distance" width="400">
 
-#variance comparison
+# variance comparison
   <img src="media/variance" alt="Fused distance" width="400">
 
