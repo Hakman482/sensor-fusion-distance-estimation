@@ -1,3 +1,5 @@
 # sensor-fusion-distance-estimation
-[![Sensor fusion results](docs/media/fusion_flow.png)](docs/media/fusion_flow.png)
+dsfasdadhfkjsgjgksdgdfjsfgdfskj
+<img src="docs/media/fused_distance_plot.png" alt="Sensor fusion results" width="500">
+
 
