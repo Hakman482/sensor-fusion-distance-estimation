@@ -48,16 +48,23 @@ Fusion can produce higher RMSE when:
 
 ## Figures
 Place exported plots here:
-- `results/raw_lidar_sonar_<surface>_<distance>.png`
-<img src="media/ir_dist.png" alt="Fused distance" width="200">
-<img src="media/idar_dist.png" alt="Fused distance" width="200">
+#raw sensor fusion
+<img src="media/ir_dist.png" alt="Fused distance" width="400">
+<img src="media/idar_dist.png" alt="Fused distance" width="400">
+<img src="media/sonar_dist.png" alt="Fused distance" width="400">
 
-- `results/fused_vs_kalman_<surface>_<distance>.png`
+##weighted fusion comparison
+<img src="media/metal_fused.png" alt="Fused distance" width="400">
+<img src="media/fused_black.png" alt="Fused distance" width="400">
 
+##kalman fusion
+<img src="media/white_kalman.png" alt="Fused distance" width="400">
+<img src="media/kalman_black.png" alt="Fused distance" width="400">
+<img src="media/kalman_white.png" alt="Fused distance" width="400">
 
-- `results/rmse_comparison.png`
-  <img src="media/rmse(kalman)_comp.png" alt="Fused distance" width="200">
+#rmse comparison
+  <img src="media/rmse(kalman)_comp.png" alt="Fused distance" width="400">
 
-- `results/variance_comparison.png`
-  <img src="media/variance" alt="Fused distance" width="200">
+#variance comparison
+  <img src="media/variance" alt="Fused distance" width="400">
 
