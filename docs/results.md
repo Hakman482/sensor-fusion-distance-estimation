@@ -65,5 +65,5 @@ Fusion can produce higher RMSE when:
   <img src="media/rmse(kalman)_comp.png" alt="Fused distance" width="400">
 
 # variance comparison
-  <img src="media/variance" alt="Fused distance" width="400">
+  <img src="media/variance.png" alt="Fused distance" width="400">
 
