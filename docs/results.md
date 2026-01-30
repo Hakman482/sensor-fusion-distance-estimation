@@ -49,6 +49,15 @@ Fusion can produce higher RMSE when:
 ## Figures
 Place exported plots here:
 - `results/raw_lidar_sonar_<surface>_<distance>.png`
+<img src="media/ir_dist.png" alt="Fused distance" width="200">
+<img src="media/idar_dist.png" alt="Fused distance" width="200">
+
 - `results/fused_vs_kalman_<surface>_<distance>.png`
+
+
 - `results/rmse_comparison.png`
+  <img src="media/rmse(kalman)_comp.png" alt="Fused distance" width="200">
+
 - `results/variance_comparison.png`
+  <img src="media/variance" alt="Fused distance" width="200">
+
