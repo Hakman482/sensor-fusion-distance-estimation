@@ -1,2 +1,3 @@
 # sensor-fusion-distance-estimation
-![Fused distance (black)](docs/media/fused_black.png)
+[![Sensor fusion results](docs/media/fusion_flow.png)](docs/media/fusion_flow.png)
+
