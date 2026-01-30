@@ -47,5 +47,8 @@ Fusion can produce higher RMSE when:
 ---
 
 ## Figures
+<img src="media/fused_distance_plot.png" alt="Sensor fusion results" width="700">
+![Fused distance](media/fused_black.png)
+
 
 
