@@ -127,13 +127,13 @@ Fusion does **not** automatically cancel error if sensors share similar **bias**
 ## ##
 <img src="hardware/photos/sensors_upclose.png" alt="ground distance" width="400">
 
-
-**Repeatable distance testing using tape measure (ground truth):**
+## ##
+**Repeatable distance testing using tape measure (ground truth) for black, white and metal:**
 ## ##
 <img src="hardware/photos/calc_dist_black.png" alt="ground distance" width="400">
 
-<img src="hardware/photos/calc_dist_black.png" alt="ground distance" width="400">
+<img src="hardware/photos/calc_dist_white.png" alt="ground distance" width="400">
 
-<img src="hardware/photos/calc_dist_black.png" alt="ground distance" width="400">
+<img src="hardware/photos/calc_dist_metal.png" alt="ground distance" width="400">
 
 
