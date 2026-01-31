@@ -137,3 +137,10 @@ Fusion does **not** automatically cancel error if sensors share similar **bias**
 <img src="hardware/photos/calc_dist_metal.png" alt="ground distance" width="400">
 
 
+
+## Presentation of results (evidence)
+
+Photo evidence of presenting the project:
+## ##
+<img src="hardware/photos/sensPresent.png" alt="ground distance" width="400">
+
