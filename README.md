@@ -124,12 +124,16 @@ Fusion does **not** automatically cancel error if sensors share similar **bias**
 ## Hardware build & test evidence
 
 **Bench prototype (Arduino + sensors):**
+## ##
 <img src="hardware/photos/sensors_upclose.png" alt="ground distance" width="400">
 
 
 **Repeatable distance testing using tape measure (ground truth):**
+## ##
 <img src="hardware/photos/calc_dist_black.png" alt="ground distance" width="400">
+
 <img src="hardware/photos/calc_dist_black.png" alt="ground distance" width="400">
+
 <img src="hardware/photos/calc_dist_black.png" alt="ground distance" width="400">
 
 
