@@ -142,5 +142,5 @@ Fusion does **not** automatically cancel error if sensors share similar **bias**
 
 Photo evidence of presenting the project:
 ## ##
-<img src="hardware/photos/sensPresent.png" alt="ground distance" width="400">
+<img src="hardware/photos/sensPresent.jpeg" alt="ground distance" width="400">
 
