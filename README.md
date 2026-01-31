@@ -58,6 +58,66 @@ Typical observations:
 
 ---
 
-## Repository structure
+
+---
+
+## How to run (end-to-end)
+
+### A) Arduino: capture distance streams
+1. Wire sensors to the UNO (see `hardware/wiring.md`).
+2. Upload `src/arduino/main.ino`.
+3. Open Serial Monitor / log serial output to CSV.
+
+### B) MATLAB: visualise + analyse
+1. Put captured CSVs into `data/`
+2. Run:
+   - `src/matlab/plot_raw_vs_fused.m`
+   - `src/matlab/kalman_filter_1d.m`
+   - `src/matlab/rmse_comparison.m`
+3. Export plots to `results/`.
+
+---
+
+## Engineering notes (important details)
+### Weighted fusion (noise-based)
+For sensors `i ∈ {lidar, sonar}`, fused distance:
+\[
+\hat{x} = \frac{\sum_i w_i x_i}{\sum_i w_i}
+\]
+Where weights reflect reliability (commonly inverse variance):
+\[
+w_i = \frac{1}{\sigma_i^2}
+\]
+
+### Why fused RMSE can be higher (a real failure case)
+Fusion does **not** automatically cancel error if sensors share similar **bias** or if weights are mis-specified for a given surface/range. In that case the fused estimate can “inherit” systematic error from both sensors.
+
+---
+
+## Limitations
+- Fixed noise-based weights do not fully adapt to changing surfaces/angles.
+- Hardware alignment and mounting can introduce repeatable bias.
+- Range tested was narrow (5–30 cm); wider ranges and moving targets were not evaluated here.
+
+## Roadmap
+- Adaptive weighting (surface-aware / innovation-based)
+- Wider distance range + more materials + angle sweeps
+- Moving-target tests
+- Replace analogue IR with digital ToF or use IR strictly as trigger
+
+---
+
+## Quick resume bullets (paste into CV)
+- Built an embedded **distance-estimation pipeline** using **LiDAR + sonar fusion** with **multipoint calibration**, **noise-based weighting**, and **1-D Kalman filtering** for stable real-time output.
+- Designed controlled experiments across **three surfaces** and **three ground-truth distances**, logging and analysing sensor behaviour with MATLAB.
+- Implemented an **RGB distance indicator** demo driven by fused distance zones for obstacle awareness.
+
+---
+
+## References
+- STMicroelectronics VL53-series ToF sensor datasheet (VL53L0X class)
+- HC-SR04 ultrasonic ranging module datasheet
+- Grewal & Andrews, *Kalman Filtering: Theory and Practice Using MATLAB*
+
 
 
